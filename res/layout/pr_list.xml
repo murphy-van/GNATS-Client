@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+   	<LinearLayout android:orientation="horizontal"
+   	    android:layout_width="fill_parent"
+      	android:layout_height="wrap_content">
+        <TextView android:id="@+id/tvprnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+        <TextView android:id="@+id/tvproriginator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="right"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TextView android:id="@+id/tvprsynopsis"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:textSize="14sp"/>
+    </LinearLayout>
+ 	
+</LinearLayout>

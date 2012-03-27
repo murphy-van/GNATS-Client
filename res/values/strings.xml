@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="gnats_database">default</string>
+    <string name="app_name">GNATS Client</string>
+    <string name="gnats_user_permission">murphyw(edit)</string>
+    <string name="BT_dwim">Do What I Mean</string>
+    <string name="TV_ifyouwant">if you want</string>
+    <string name="thentypein">then type in</string>
+    <string name="ifyouwant">if you want</string>
+    <color name="red">#FF0000</color>
+    <color name="gray">#FF8888</color>
+
+</resources>

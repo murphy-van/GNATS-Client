@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gnatsclient.android"
+    android:versionCode="34"
+    android:versionName="1.0.33" >
+
+    <uses-sdk android:minSdkVersion="8" 
+        android:targetSdkVersion="8"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:debuggable="true">
+        <activity
+            android:name=".GNATSClientActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GNATSLogActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".GNATSHelpActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>        
+        <activity android:name=".GNATSConfigActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>        
+        <activity android:name=".GNATSPRListActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity> 
+        <activity android:name=".GNATSPRDetailActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity> 
+        
+    </application>
+
+</manifest>

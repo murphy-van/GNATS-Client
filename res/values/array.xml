@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+   
+    <string-array name="select_dialog_debug_option">
+        <item>Basic</item>
+        <item>Networking</item>
+        <item>Protocol</item>
+        <item>Query</item>
+        <item>Activity</item>
+        <item>PR Parser</item>
+        <item>Dump</item>
+    </string-array>
+
+    <string-array name="select_dialog_fields_predefined">
+        <item>List</item>
+        <item>Standard</item>
+        <item>Detail</item>
+    </string-array>
+</resources>

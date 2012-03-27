@@ -1,0 +1,11 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menuconfig" 
+            android:title="Preference"></item>
+        <item android:id="@+id/menulog"
+            android:title="Log"></item>
+        <item android:id="@+id/menuhelp" 
+            android:title="Help"></item>
+        <item android:id="@+id/menuexit"
+            android:title="Exit"></item>
+    </menu>

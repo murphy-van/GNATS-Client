@@ -1,0 +1,9 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menuconfigapply" 
+            android:title="Apply"></item>
+        <item android:id="@+id/menuconfigdefault"
+            android:title="Default"></item>
+        <item android:id="@+id/menuconfigcancel" 
+            android:title="Cancel"></item>
+    </menu>

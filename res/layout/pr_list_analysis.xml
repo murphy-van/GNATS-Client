@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinerLayout xmlns:android="http://shcemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_heigh="fill_parent"
+    android:orientation="vertical">
+
+    	<ListView
+    		android:id="@+id/LV_pr_summary"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    	/>
+    	
+</LinerLayout>

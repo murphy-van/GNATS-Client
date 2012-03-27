@@ -1,0 +1,8 @@
+
+This tool was written by Chaohua (Murphy) Wan. With it, you can easily query and browse problem report (PR) from a remote GNATS database in your Android devices. If you find any issue on using it, please drop me an email.
+
+Contact:
+murphy.van@gmail.com
+
+GNATS Website:
+http://www.gnu.org/software/gnats/
